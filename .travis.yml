@@ -11,3 +11,5 @@ node_js:
   - "iojs"
 before_script:
   - npm install -g grunt-cli
+  - npm install -g browserify
+  - browserify src/core.js -o congolexicomatisation.js
