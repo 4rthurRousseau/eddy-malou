@@ -12,4 +12,4 @@ node_js:
 before_script:
   - npm install -g browserify
   
- script: ./test/run_test.sh
+script: ./test/run_test.sh
