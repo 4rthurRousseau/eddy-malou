@@ -22,3 +22,4 @@ NodeJS >= 0.10
   - Nathan Badaud
   - Walrand Degeorges
   - Julien Leroy
+  - Arthur Rousseau

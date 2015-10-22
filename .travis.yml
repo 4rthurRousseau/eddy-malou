@@ -9,6 +9,6 @@ node_js:
   - "iojs"
 before_script:
   - npm install -g browserify
-  - chmod 775 ./test/run_test.sh
+  - chmod 775 ./scripts/run_test.sh
   
-script: ./test/run_test.sh
+script: ./scripts/run_test.sh
