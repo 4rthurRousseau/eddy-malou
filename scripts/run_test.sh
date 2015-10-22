@@ -7,7 +7,7 @@ cp -R ./src/dictionnaries ./tmp/core/src/
 cp ./src/dictionnaries.js ./tmp/core/src/
 
 # Generating extension
-npm update -g browserify
+npm install -g browserify
 browserify ./tmp/core/src/main.js -o ./congolexicomatisation.js
 npm build
 rm -rf ./tmp/
